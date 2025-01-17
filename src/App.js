@@ -5,7 +5,7 @@ import { onAuthStateChanged } from "firebase/auth";
 
 //hooks
 import { useState, useEffect } from "react";
-import { useAuthentication } from "./hooks/UseAuthentication";
+import { useAuthentication } from "./hooks/useAuthentication";
 
 //context
 import { AuthProvider } from "./context/AuthContext";
