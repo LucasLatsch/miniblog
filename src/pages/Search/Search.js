@@ -22,7 +22,10 @@ const Search = () => {
             </Link>
           </div>
         )}
-        {posts && posts.map((post) => <PostDetail key={post.id} post={post} />)}
+        {posts &&
+          posts.map((post) => (
+            <PostDetail key={post.id} post={post} btn={true} />
+          ))}
       </div>
     </div>
   );

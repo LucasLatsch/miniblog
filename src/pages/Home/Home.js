@@ -29,7 +29,10 @@ const Home = () => {
       </form>
       <div></div>
       {loading && <p>Carregando...</p>}
-      {posts && posts.map((post) => <PostDetail key={post.id} post={post} />)}
+      {posts &&
+        posts.map((post) => (
+          <PostDetail key={post.id} post={post} btn={true} />
+        ))}
       {posts && posts.length === 0 && (
         <div className={styles.noposts}>
           <p>Não foram encontrados posts</p>
