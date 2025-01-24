@@ -28,7 +28,6 @@ const EditPost = () => {
       const textTags = post.tags.join(" ");
 
       setTags(textTags);
-      console.log(textTags);
     }
   }, [post]);
 
