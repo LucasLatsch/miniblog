@@ -1,5 +1,5 @@
 import { db } from "../firebase/config";
-
+//testando nome do arquivo
 import {
   getAuth,
   createUserWithEmailAndPassword,
