@@ -9,7 +9,7 @@ import {
 } from "firebase/auth";
 
 import { useEffect, useState } from "react";
-
+// Forçando redeploy no Vercel
 export const useAuthentication = () => {
   const [error, setError] = useState(null);
   const [loading, setLoading] = useState(null);
